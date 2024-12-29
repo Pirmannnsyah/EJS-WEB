@@ -39,7 +39,7 @@
     <section class="main-office">
         <div class="main-left">
             <h2>Main Office : </h2>
-            <p>Jl. 16 Ilir Lr. Rumah Kuning Lama No. 569 D, RT.5.008/RW.002, 16 Ilir, Ilir Timur I, Palembang City, South Sumatra 30111</p>
+            <p>Jl. 16 Ilir Lr. Rumah Kuning Lama No. 569 D, RT.008/RW.002, 16 Ilir, Ilir Timur I, Palembang City, South Sumatra 30111</p>
             <br>
             <p>No Telpon : +62 812-7134-442</p>
             <br>
