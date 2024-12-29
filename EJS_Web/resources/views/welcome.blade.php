@@ -241,7 +241,7 @@
     
     <div class="container">
         <div class="copyright">
-            <p>Copyright 2024 By CV. Ehko Jaya Sentosa</p>
+            <p>Copyright 2024 By Cv. Ehko Jaya Sentosa</p>
         </div>
     </div>
     
