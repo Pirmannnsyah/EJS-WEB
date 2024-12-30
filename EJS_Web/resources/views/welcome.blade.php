@@ -131,19 +131,19 @@
         <div class="artikel">
             <div class="card">
                 <img src="{{ asset('img/dailyorder4.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
-                <h3 class="card-title">Pengiriman 20zak Kacang Tanah Dubai <br> Jon Cabe</h3>
+                <h3 class="card-title">Pengiriman 200zak Kacang Tanah India <br> Lampung</h3>
                 <p class="card-date">28 Desember 2024 / BY CV. EJS</p>
             </div>
 
             <div class="card">
-                <img src="{{ asset('img/dailyorder3.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
-                <h3 class="card-title">Pengiriman 40zak Kacang Tanah Dubai <br> Hersan</h3>
+                <img src="{{ asset('img/dailyorder6.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
+                <h3 class="card-title">Pengiriman 100zak Kacang Tanah Dubai <br> Jambi</h3>
                 <p class="card-date">27 Desember 2024 / BY CV. EJS</p>
             </div>
 
             <div class="card">
-                <img src="{{ asset('img/dailyorder2.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
-                <h3 class="card-title">Pengiriman 40zak Kacang Tanah Dubai <br> Roby Api</h3>
+                <img src="{{ asset('img/dailyorder5.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
+                <h3 class="card-title">Pengiriman 200zak Kacang Tanah India <br> Irul Dubes</h3>
                 <p class="card-date">27 Desember 2024 / BY CV. EJS</p>
             </div>
 
