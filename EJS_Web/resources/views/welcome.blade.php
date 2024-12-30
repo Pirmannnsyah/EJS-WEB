@@ -34,7 +34,7 @@
     <section class="home">
         <div class="home-text">
             <h5>Kami menyajikan,</h5>
-            <h1>Kacang tanah terbaik <br>untuk setiap momen</h1>
+            <h1>Kacang tanah terbaik <br> untuk setiap momen</h1>
             <p>Dengan dedikasi tinggi dan proses yang terstandar, kami menghadirkan <br>
             kacang tanah berkualitas terbaik yang tidak hanya lezat, tetapi juga kaya <br>
              akan nutrisi, cocok untuk menemani setiap momen istimewa Anda</p>
@@ -61,7 +61,7 @@
                 <p>Jumlah Penjualan Harian</p>
             </div>
             <div class="sell-item">
-                <h2>2000 Zak</h2>
+                <h2>5000 Zak</h2>
                 <p>Jumlah Stok</p>
             </div>
             <div class="sell-item">
@@ -130,26 +130,26 @@
     <section class="artikel-daily">
         <div class="artikel">
             <div class="card">
-                <img src="{{ asset('img/bg_ejs5.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
+                <img src="{{ asset('img/dailyorder4.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
                 <h3 class="card-title">Pengiriman 20zak Kacang Tanah Dubai <br> Jon Cabe</h3>
                 <p class="card-date">28 Desember 2024 / BY CV. EJS</p>
             </div>
 
             <div class="card">
-                <img src="{{ asset('img/bg_ejs5.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
-                <h3 class="card-title">Pengiriman 200zak Kacang Tanah Dubai <br> Akheng</h3>
+                <img src="{{ asset('img/dailyorder3.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
+                <h3 class="card-title">Pengiriman 40zak Kacang Tanah Dubai <br> Hersan</h3>
                 <p class="card-date">27 Desember 2024 / BY CV. EJS</p>
             </div>
 
             <div class="card">
-                <img src="{{ asset('img/bg_ejs5.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
+                <img src="{{ asset('img/dailyorder2.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
                 <h3 class="card-title">Pengiriman 40zak Kacang Tanah Dubai <br> Roby Api</h3>
                 <p class="card-date">27 Desember 2024 / BY CV. EJS</p>
             </div>
 
             <div class="card">
-                <img src="{{ asset('img/bg_ejs5.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
-                <h3 class="card-title">Pengiriman 40zak Kacang Tanah Dubai  <br> Jackson</h3>
+                <img src="{{ asset('img/dailyorder1.jpg') }}" alt="Kunjungan ke PT. Charoen Pokphand Indonesia" class="card-image">
+                <h3 class="card-title">Pengiriman 200zak Kacang Tanah Dubai  <br> Akheng</h3>
                 <p class="card-date">27 Desember 2024 / BY CV. EJS</p>
             </div>
         </div>
@@ -199,6 +199,12 @@
                 // Hover effect
                 let hs = polygonSeries.mapPolygons.template.states.create("hover");
                 hs.properties.fill = am4core.color("#7B68EE");
+
+                chart.homeZoomLevel = 2;
+                chart.homeGeoPoint = {
+                latitude: 20,
+                longitude: 0
+                };
 
             });
         </script>

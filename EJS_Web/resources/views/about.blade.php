@@ -61,47 +61,42 @@
         </div>
     </section>
 
-<div class="staff">
+    <div class="staff">
     <div class="staff-judul">Our Team</div>
-        <div class="staff-content">
-            <div class="box1">
-                <img src="{{ asset('img/ehko.jpg') }}">
-            </div>
-
-            <div class="box1">
-            <img src="{{ asset('img/tedy.jpg') }}">
-            </div>
-
-            <div class="box1">
-            <img src="{{ asset('img/adit.jpg') }}">
-            </div>
-
-            <div class="box1">
-            <img src="{{ asset('img/firman.jpg') }}">
-         </div>
-    </div> 
-    <div class="staff-desc">
-            <div class="ceo-ejs">
+    <div class="staff-content">
+        <div class="staff-item">
+            <img src="{{ asset('img/ehko.jpg') }}" alt="Ehko Hartanto">
+            <div class="staff-desc">
                 <h4>Ehko Hartanto</h4>
                 <h5>CEO, Founder</h5>
-                <p>Bertanggung jawab dalam merumuskan visi dan misi perusahaan, mengembangkan strategi bisnis yang komprehensif, dan memimpin tim yang dinamis</p>
+                <p>Bertanggung jawab dalam merumuskan visi dan misi perusahaan, mengembangkan strategi bisnis yang komprehensif, dan memimpin tim yang dinamis.</p>
             </div>
-            <div class="staff1">
+        </div>
+        <div class="staff-item">
+            <img src="{{ asset('img/tedy.jpg') }}" alt="Teddy Gunawan">
+            <div class="staff-desc">
                 <h4>Teddy Gunawan</h4>
                 <h5>Operational Staff</h5>
-                <p>Bertanggung jawab dalam pengadaan kacang tanah, pengelolaan logistik, pengendalian kualitas, dan pengelolaan inventaris</p>
+                <p>Bertanggung jawab dalam pengadaan kacang tanah, pengelolaan logistik, pengendalian kualitas, dan pengelolaan inventaris.</p>
             </div>
-            <div class="staff2">
+        </div>
+        <div class="staff-item">
+            <img src="{{ asset('img/adit.jpg') }}" alt="Aditya Alfons">
+            <div class="staff-desc">
                 <h4>Aditya Alfons</h4>
                 <h5>Accounting Staff</h5>
-                <p>Bertanggung jawab dalam melakukan tugas-tugas seperti pembuatan laporan keuangan, pengelolaan kas, perhitungan pajak, dan analisis keuangan</p>
+                <p>Bertanggung jawab dalam melakukan tugas-tugas seperti pembuatan laporan keuangan, pengelolaan kas, perhitungan pajak, dan analisis keuangan.</p>
             </div>
-            <div class="staff3">
+        </div>
+        <div class="staff-item">
+            <img src="{{ asset('img/firman.jpg') }}" alt="Muhammad Firmansyah">
+            <div class="staff-desc">
                 <h4>Muhammad Firmansyah</h4>
-                <h5>Realitonship Staff</h5>
-                <p>Bertanggung jawab dalam memberikan pelayanan terbaik kepada pelanggan, serta menjalin kerjasama yang baik dengan pemasok untuk memastikan pasokan yang stabil</p>
+                <h5>Relationship Staff</h5>
+                <p>Bertanggung jawab dalam memberikan pelayanan terbaik kepada pelanggan, serta menjalin kerjasama yang baik dengan pemasok untuk memastikan pasokan yang stabil.</p>
             </div>
-         </div> 
+        </div>
+    </div>
 </div>
 
     <div class="footer">
